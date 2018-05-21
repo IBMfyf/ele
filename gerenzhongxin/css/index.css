@@ -1,0 +1,432 @@
+header{
+    width: 100%;
+    height: 2.7rem;
+    background-image: url("../img/header/header.png");
+    background-size: cover;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+}
+header .top{
+    width: 7.02rem;
+    height: 0.88rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+header .top .left{
+    width: 0.6rem;
+    height: 0.88rem;
+    /*background: blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .top .left i{
+    color: #fff;
+}
+header .top .middle{
+    width: 2.2rem;
+    height: 0.88rem;
+    /*background: blue;*/
+}
+header .top .middle .i1{
+    width: 2.2rem;
+    height: 0.52rem;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.52rem;
+}
+header .top .middle .i2{
+    width: 2.2rem;
+    height: 0.36rem;
+    font-size: 0.24rem;
+    color: #dcd0d0;
+    text-align: center;
+    line-height: 0.36rem;
+}
+header .top .right{
+    width: 0.6rem;
+    height: 0.88rem;
+    /*background: blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .top .right i{
+    color: #fff;
+}
+header .bottom{
+    width: 7.02rem;
+    height: 1.42rem;
+    /*background: yellow;*/
+    padding-top: 0.12rem;
+    padding-left: 0.15rem;
+    box-sizing: border-box;
+}
+header .bottom img{
+    width: 1.16rem;
+    height: 1.16rem;
+    float: left;
+}
+header .bottom .left{
+    width: 1.95rem;
+    height: 1.3rem;
+    margin-left: 0.24rem;
+    /*background: blue;*/
+    float: left;
+}
+header .bottom .left .i1{
+    width: 1.95rem;
+    height: 0.6rem;
+    /*background: red;*/
+    font-size: 0.24rem;
+    color: #fff;
+    line-height: 0.6rem;
+}
+header .bottom .left .i2{
+    width: 1.95rem;
+    height: 0.7rem;
+    /*background: pink;*/
+    font-size: 0.18rem;
+    color: #fff;
+    line-height: 0.7rem;
+}
+header .bottom .right{
+    width: 0.38rem;
+    height: 1.3rem;
+    float: right;
+    /*background: blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .bottom .right i{
+    color: #f22626;
+}
+
+.item{
+    width: 100%;
+    height: 1.4rem;
+    border-bottom: 0.12rem solid #eeeeee;
+    box-sizing: border-box;
+    padding-bottom: 0.05rem;
+    padding-top: 0.11rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+.item .box{
+    width: 2.34rem;
+    height: 1.12rem;
+    /*background: red;*/
+    float: left;
+    border-right: 0.03rem solid #f5dada;
+    box-sizing: border-box;
+}
+.item .box .top{
+    width: 2.31rem;
+    height: 0.66rem;
+    /*background: blue;*/
+    font-size: 0.24rem;
+    color: #f22626;
+    text-align: center;
+    line-height: 0.66rem;
+}
+.item .box .bottom{
+    width: 2.31rem;
+    height: 0.46rem;
+    /*background: yellow;*/
+    text-align: center;
+    font-size: 0.24rem;
+}
+.item .box1{
+    border-right: 0 solid #f5dada;
+}
+
+.shouhuo{
+    width: 100%;
+    height: 1.09rem;
+    padding-left: 0.39rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.03rem solid #eeeeee;
+}
+.shouhuo .left{
+    width: 2.16rem;
+    height: 1.06rem;
+    /*background: red;*/
+    font-size: 0.24rem;
+    line-height: 1.06rem;
+}
+.shouhuo .left i{
+    color: blue;
+}
+.shouhuo .right{
+    width: 0.4rem;
+    height: 1.06rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shouhuo .right i{
+    color: #f99a9a;
+}
+
+.wodeshoucang{
+    width: 100%;
+    height: 1.08rem;
+    padding-left: 0.39rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.11rem solid #eeeeee;
+}
+.wodeshoucang .left{
+    width: 2.16rem;
+    height: 0.97rem;
+    /*background: red;*/
+    font-size: 0.24rem;
+    line-height: 0.97rem;
+}
+.wodeshoucang .left i{
+    color: red;
+}
+.wodeshoucang .right{
+    width: 0.4rem;
+    height: 0.97rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wodeshoucang .right i{
+    color: #f99a9a;
+}
+
+.tuijianyoujiang{
+    width: 100%;
+    height: 1.14rem;
+    padding-left: 0.39rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.03rem solid #eeeeee;
+}
+.tuijianyoujiang .left{
+    width: 2.16rem;
+    height: 1.11rem;
+    /*background: red;*/
+    font-size: 0.24rem;
+    line-height: 1.11rem;
+}
+.tuijianyoujiang .left i{
+    color: red;
+}
+.tuijianyoujiang .right{
+    width: 1.96rem;
+    height: 1.11rem;
+    /*background: red;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 1.11rem;
+}
+.tuijianyoujiang .right i{
+    color: #f99a9a;
+}
+
+.jinbishangcheng{
+    width: 100%;
+    height: 1.19rem;
+    padding-left: 0.39rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.03rem solid #eeeeee;
+}
+.jinbishangcheng .left{
+    width: 2.16rem;
+    height: 1.16rem;
+    /*background: red;*/
+    font-size: 0.24rem;
+    line-height: 1.16rem;
+}
+.jinbishangcheng .left i{
+    color: red;
+}
+.jinbishangcheng .right{
+    width: 1.96rem;
+    height: 1.11rem;
+    /*background: red;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 1.11rem;
+}
+.jinbishangcheng .right i{
+    color: #f99a9a;
+}
+
+.egongyi{
+    width: 100%;
+    height: 1.25rem;
+    padding-left: 0.39rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.12rem solid #eeeeee;
+}
+.egongyi .left{
+    width: 2.16rem;
+    height: 1.13rem;
+    /*background: red;*/
+    font-size: 0.24rem;
+    line-height: 1.13rem;
+}
+.egongyi .left i{
+    color: green;
+}
+.egongyi .right{
+    width: 2rem;
+    height: 1.13rem;
+    /*background: red;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 1.13rem;
+}
+.egongyi .right i{
+    color: #f99a9a;
+}
+
+.wodekefu{
+    width: 100%;
+    height: 1.19rem;
+    padding-left: 0.39rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.03rem solid #eeeeee;
+}
+.wodekefu .left{
+    width: 2.16rem;
+    height: 1.16rem;
+    /*background: red;*/
+    font-size: 0.24rem;
+    line-height: 1.16rem;
+}
+.wodekefu .left i{
+    color: blue;
+}
+.wodekefu .right{
+    width: 0.4rem;
+    height: 1.16rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wodekefu .right i{
+    color: #f99a9a;
+}
+
+.duoxiedianzan{
+    width: 100%;
+    height: 1.33rem;
+    padding-left: 0.39rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.31rem solid #eeeeee;
+}
+.duoxiedianzan .left{
+    width: 2.16rem;
+    height: 1.02rem;
+    /*background: red;*/
+    font-size: 0.24rem;
+    line-height: 1.02rem;
+}
+.duoxiedianzan .left i{
+    color: blue;
+}
+.duoxiedianzan .right{
+    width: 0.4rem;
+    height: 1.02rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duoxiedianzan .right i{
+    color: #f99a9a;
+}
+
+footer{
+    width: 100%;
+    height: 0.98rem;
+}
+footer .main{
+    width: 7.02rem;
+    height: 0.98rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .main .it{
+    width: 1.755rem;
+    height: 0.98rem;
+    /*background: red;*/
+    float: left;
+}
+footer .main .it a{
+    width: 1.755rem;
+    height: 0.98rem;
+}
+footer .main .it a i{
+    width: 0.50rem;
+    height: 0.44rem;
+    font-size: 0.37rem;
+    color: #000;
+    display: block;
+    margin-top: 0.17rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .main .it a .ite{
+    width: 0.50rem;
+    height: 0.2rem;
+    font-size: 0.18rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .main .it a .icon-icon-{
+    color: #8348b1;
+}
+footer .main .it a .ite1{
+    width: 0.50rem;
+    height: 0.2rem;
+    font-size: 0.18rem;
+    color: #a370d2;
+    text-align: center;
+    line-height: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
